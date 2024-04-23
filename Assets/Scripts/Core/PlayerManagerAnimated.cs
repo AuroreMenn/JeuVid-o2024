@@ -23,6 +23,7 @@ public class PlayerManagerAnimated : MonoBehaviour
 		}
 		return player;
 	}
+			
 	
 	private static float freeze = 0; //Si cette valeur est supérieure à 0, le personnage ne peut pas bouger pendant le laps de temps indiqué en secondes.
 

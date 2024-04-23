@@ -23,7 +23,6 @@ public class Impact : MonoBehaviour
 			
 			//On augmente de 1 le compteur de morts
 			col.gameObject.GetComponent<PlayerManagerAnimated>().AddDeath(); //On récupère le PlayerManager du joueur pour ajouter la mort
-			
 			//On immobilise le joueur pendant 0.5 s
 			PlayerManager.SetFreeze(0.5f);
         }
