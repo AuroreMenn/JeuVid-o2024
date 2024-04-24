@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Nourriture : MonoBehaviour
 {
+    
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        GameObject.Find("Character Animated Variant").GetComponent<PlayerManagerAnimated>().nourriture = this;
     }
 
     // Update is called once per frame
@@ -19,7 +20,7 @@ public class Nourriture : MonoBehaviour
 		//Si l'obstacle entre en collision avec le joueur (objet avec le tag "Player")
         if (col.gameObject.tag == "Player") {
             col.gameObject.GetComponent<PlayerManagerAnimated>().AddNourriture(); 
-            Destroy(this.gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
