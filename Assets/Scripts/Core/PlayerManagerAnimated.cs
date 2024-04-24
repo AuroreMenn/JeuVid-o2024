@@ -67,7 +67,7 @@ public class PlayerManagerAnimated : MonoBehaviour
 	
 	//On récupère le nombre de morts
 	public void Teleport(float _x, float _y, int _numTableau){
-		transform.position = new Vector2(_x,_y);
+		transform.position = new Vector2(_x, _y);
 		if(hud != null){ //On édite le HUD
 			hud.updateLevelText(_numTableau);
 		}
