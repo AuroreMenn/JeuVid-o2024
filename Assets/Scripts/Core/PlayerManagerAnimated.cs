@@ -10,6 +10,7 @@ public class PlayerManagerAnimated : MonoBehaviour
 
 	public static PlayerManagerAnimated instance;
 	public static GameObject player;
+	public Nourriture nourriture;
 	
 	void Awake(){
 		if(instance == null){
@@ -37,7 +38,7 @@ public class PlayerManagerAnimated : MonoBehaviour
 	
 	//Variables attributs  du joueur.
 	
-	private int nbDeath = 0; //Enregistre le nombre de morts.
+	[SerializeField] private int nbDeath = 0; //Enregistre le nombre de morts.
 
 	
 	/* [ADDED] */
@@ -51,9 +52,18 @@ public class PlayerManagerAnimated : MonoBehaviour
 	}
 	}
 
+	public void DeleteNourriture(){
+		nbNourriture--;
+		if (hud != null) {
+			hud.updateNourritureText(nbNourriture);
+		}
+	}
+
 	//Ajoute 1 au compteur de morts
 	public void AddDeath(){
+		Debug.Log(nbDeath);
 		nbDeath++;
+		Debug.Log(nbDeath);
 		if(hud != null){ //On édite le HUD
 			hud.updateDeathText(nbDeath);
 		}
