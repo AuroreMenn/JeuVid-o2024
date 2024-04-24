@@ -9,7 +9,7 @@ public class FinishLine : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col) {
 		//Si la ligne de fin rentre en collision avec le joueur (objet avec le tag "Player")
         if (col.gameObject.tag == "Player") {
-			col.gameObject.GetComponent<PlayerManager>().FinishLine();
+			//col.gameObject.GetComponent<PlayerManager>().FinishLine();
 			//On arrête le chronomètre
 
 			//On immobilise le joueur pendant 5 s

@@ -23,6 +23,7 @@ public class PlayerManagerAnimated : MonoBehaviour
 		}
 		return player;
 	}
+			
 	
 	private static float freeze = 0; //Si cette valeur est supérieure à 0, le personnage ne peut pas bouger pendant le laps de temps indiqué en secondes.
 
@@ -37,9 +38,19 @@ public class PlayerManagerAnimated : MonoBehaviour
 	//Variables attributs  du joueur.
 	
 	private int nbDeath = 0; //Enregistre le nombre de morts.
-	private float timerGame = 0;
-	private bool endTimer = false;
+
 	
+	/* [ADDED] */
+	private int nbNourriture = 0;
+	
+	public void AddNourriture(){
+		nbNourriture++;
+		Debug.Log("nbNourriutre : " + nbNourriture);
+		if(hud != null){ //On édite le HUD
+			hud.updateNourritureText(nbNourriture);
+	}
+	}
+
 	//Ajoute 1 au compteur de morts
 	public void AddDeath(){
 		nbDeath++;
@@ -65,11 +76,6 @@ public class PlayerManagerAnimated : MonoBehaviour
 	public void FinishLine(){
 		audioManager.PlaySFX(audioManager.finishSFX); //Joue le bruitage de fanfare de fin
 		audioManager.StopMusic(); //On arrête la musique
-		StopTimer();
-	}
-	
-	public void StopTimer(){
-		endTimer = true;
 	}
 	
 	[SerializeField] private float moveSpeed = 5f; //On définit ici la vitesse du character. Vous pouvez la modifier. 5f = le nombre 5 en float (décimal).
@@ -129,14 +135,7 @@ public class PlayerManagerAnimated : MonoBehaviour
     }
 
 	void FixedUpdate() {
-		
-		//Si le chronomètre n'est pas arrêté, on ajoute le laps de temps écoulé au chronomètre et on actualise le HUD
-		if(!endTimer){
-			timerGame += Time.fixedDeltaTime;
-			if(hud != null){ //On édite le HUD
-				hud.updateTimer(timerGame);
-			}
-		}
+	
 		
 		//Si le personnage est gelé, (si la variable freeze est supérieure à 0), on diminue la variable freeze du laps de temps écoulé, mesuré par Time.fixedDeltaTime).
 		if(freeze > 0){
