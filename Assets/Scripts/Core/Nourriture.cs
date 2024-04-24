@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Nourriture : MonoBehaviour
 {
-    [SerializeField] GameObject door;
+    [SerializeField] public GameObject door;
 
     // Start is called before the first frame update
     void Awake()
@@ -22,7 +22,7 @@ public class Nourriture : MonoBehaviour
         if (col.gameObject.tag == "Player") {
             col.gameObject.GetComponent<PlayerManagerAnimated>().AddNourriture(); 
             gameObject.SetActive(false);
-            Destroy(door);
+            door.SetActive(false);
         }
     }
 }

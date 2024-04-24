@@ -23,7 +23,9 @@ public class Impact : MonoBehaviour
             col.gameObject.transform.position = TableauManager.GetCheckpointPosition();	
 			
 			if(col.GetComponent<PlayerManagerAnimated>().nourriture.gameObject.activeSelf == false) {
-				col.GetComponent<PlayerManagerAnimated>().nourriture.gameObject.SetActive(true);
+				GameObject nourriture = col.GetComponent<PlayerManagerAnimated>().nourriture.gameObject;
+				nourriture.gameObject.SetActive(true);
+				nourriture.gameObject.GetComponent<Nourriture>().door.SetActive(true);
 				col.gameObject.GetComponent<PlayerManagerAnimated>().DeleteNourriture();
 			}
 			//On augmente de 1 le compteur de morts
