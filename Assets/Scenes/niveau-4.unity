@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 662533266}
   - component: {fileID: 662533258}
   - component: {fileID: 662533264}
-  - component: {fileID: 662533265}
+  - component: {fileID: 662533271}
   m_Layer: 0
   m_Name: Chat_Marche_chercheur
   m_TagString: Ennemi
@@ -817,18 +817,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   rb: {fileID: 662533258}
---- !u!114 &662533265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662533256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05300200003402f4fba4a65a26205ab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &662533266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,6 +969,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &662533271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662533256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d797fa61eeb1d46aaaeb18f12588c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &926315700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4530897992884546598, guid: 2d88d8eaa28a2774397927a1cf166d5b,
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 947844876}
   - component: {fileID: 947844869}
   - component: {fileID: 947844868}
-  - component: {fileID: 947844875}
+  - component: {fileID: 947844881}
   m_Layer: 0
   m_Name: Chat_Marche_chercheur (1)
   m_TagString: Ennemi
@@ -1053,18 +1053,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &947844875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947844867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05300200003402f4fba4a65a26205ab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &947844876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1217,6 +1205,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947844881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947844867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d797fa61eeb1d46aaaeb18f12588c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1084043363 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6548816510263248998, guid: d46990a806932c94fb605d9573019a03,
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Niveau 0
+  m_text: Nourriture
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3664,7 +3664,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5582373004398295742, guid: e12536793d33aad41947eea4a08c462c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 662533265}
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: e12536793d33aad41947eea4a08c462c, type: 3}
 --- !u!1 &1904134073
 GameObject:
@@ -3900,7 +3900,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5582373004398295742, guid: e12536793d33aad41947eea4a08c462c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 947844875}
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: e12536793d33aad41947eea4a08c462c, type: 3}
 --- !u!1 &2136800862
 GameObject:
