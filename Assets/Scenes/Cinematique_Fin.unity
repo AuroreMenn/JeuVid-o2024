@@ -502,7 +502,7 @@ MonoBehaviour:
   - {fileID: 1516620771}
   - {fileID: 455137674}
   imageDisplayTime: 10
-  sceneToLoad: Level 1
+  sceneToLoad: TitleMenu
 --- !u!4 &1501349057
 Transform:
   m_ObjectHideFlags: 0
