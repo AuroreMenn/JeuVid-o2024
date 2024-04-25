@@ -90,39 +90,7 @@ public class Menu : MonoBehaviour
 			}
 		}
 		
-		//Si on est en train de lire les règles
-		if (_readingCredits > 0)
-		{
-			//Si on appuie sur le clic de la souris (possibilité de remplacer par l'appui d'une touche)
-			if (Input.GetMouseButtonDown(0))
-			{
-				//Si le numéro de l'image qu'on est en train de lire est inférieur au nombre total d'images (si on n'est pas à la dernière)
-				if (_readingCredits < _picturesCredits.Length)
-				{
-					Debug.Log(_readingCredits + " " + _picturesCredits.Length);
-					
-					//On désactive l'image actuelle
-					_picturesCredits[_readingCredits-1].SetActive(false);
-					
-					//On augmente de 1 le compteur d'image de _readingRules
-					_readingCredits++;
-					
-					//On active l'image suivante
-					_picturesCredits[_readingCredits-1].SetActive(true);
-				}
-				else
-				{
-					Debug.Log("end " + _readingCredits + " " + _picturesCredits.Length);
-					
-					//On désactive la dernière image
-					_picturesCredits[_readingCredits-1].SetActive(false);
-					_picturesGroupCredits.SetActive(false);
-					
-					//On met le compteur à zéro
-					_readingCredits = 0;
-				}
-			}
-		}
+		/* FAIRE LA MEME CHOSE POUR LES CREDITS */
 	}
 	
 	
@@ -150,7 +118,6 @@ public class Menu : MonoBehaviour
 	//Fonction qui affiche la première image des crédits
 	public void ReadCredits()
 	{
-
 		_picturesGroupCredits.SetActive(true);
 		_picturesCredits[0].SetActive(true);
 		_readingCredits = 1;
