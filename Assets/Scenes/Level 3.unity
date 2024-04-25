@@ -3324,117 +3324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309c6ea72f63e246af191eb5a292c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1131579979 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-    type: 3}
-  m_PrefabInstance: {fileID: 1139830411}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1139830411
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2136800863}
-    m_Modifications:
-    - target: {fileID: 935039620488651818, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_Name
-      value: Teleport Left
-      objectReference: {fileID: 0}
-    - target: {fileID: 2222749683863845322, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b,
-        type: 3}
-    - target: {fileID: 2222749683863845322, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2918245067318499447, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3729425530190804441, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: x
-      value: 7.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 3729425530190804441, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-        type: 3}
-      propertyPath: numTableau
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff1f5deed17eb294d8e6e25e1d1798da, type: 3}
---- !u!1 &1162931630 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 935039620488651818, guid: ff1f5deed17eb294d8e6e25e1d1798da,
-    type: 3}
-  m_PrefabInstance: {fileID: 1139830411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1228521041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3662,6 +3551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: x
       value: -7.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729425530190804441, guid: ff1f5deed17eb294d8e6e25e1d1798da,
+        type: 3}
+      propertyPath: sceneName
+      value: niveau-4
       objectReference: {fileID: 0}
     - target: {fileID: 3729425530190804441, guid: ff1f5deed17eb294d8e6e25e1d1798da,
         type: 3}
@@ -4629,7 +4523,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 926315700}
-  - {fileID: 1131579979}
   - {fileID: 136772265}
   - {fileID: 999064256}
   m_Father: {fileID: 1432177933}
@@ -4646,7 +4539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03f4d9bd6d94248b36314258d18298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleporterLeft: {fileID: 1162931630}
+  teleporterLeft: {fileID: 0}
   teleporterRight: {fileID: 1814519450}
 --- !u!1 &2143257213 stripped
 GameObject:
