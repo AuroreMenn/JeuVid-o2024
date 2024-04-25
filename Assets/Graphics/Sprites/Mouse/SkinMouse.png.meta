@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: bf78708a6897b814585e905735ec4265
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkinMouse_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 196
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5226041ce71e624ebdb20e75b6c82c9
+      internalID: 1387355670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 185.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f516ce37c37a2541870a1f170a9dcd0
+      internalID: 333918352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 185.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f4de8c58fcaa24989d4d78ba66aad6
+      internalID: -558496668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 185.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661959537c3058346b6c122e1793c252
+      internalID: -1224326538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 185
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675b383dc17f8a489ee68c7ec32c488
+      internalID: 1274808470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 185
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb9b15f8d7767345aafa881abc5d75d
+      internalID: 1208564728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 185.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d8c19d7b907d54a9d2cf9f3842bd89
+      internalID: 987546422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 187
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d6e4a926846794a893b63570d24187
+      internalID: -1563971074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c057910c98099ef48b995fb46062bb64
+      internalID: -1631988845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923bc2d05e725b44392106eb41c4cfa3
+      internalID: 517997139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783bfb56869e1c74cbf3ebeb7cb5afbc
+      internalID: 1001049064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4b45fe2f1607d4aa63feb582669653
+      internalID: -1039094721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50884267736dfd24ab7c52244f42ac2c
+      internalID: -837569536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0858eb9811a8024a998e2bc8705a082
+      internalID: 783930757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 155.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fb4f1bbf83ec43b65e3a7d1ef4e20
+      internalID: -106520012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 167
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56246ee47465ac4e839acf3066e6bc2
+      internalID: -1092140608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4337c241b67eb0a4387e2fd3ee9332f4
+      internalID: -1240806034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1812b4f9815e74daede2c5cc601a5a
+      internalID: -49121798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc258e65f75ab04bb53fb2c1d97cff8
+      internalID: 1793907666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e54101f545353f4f86fdd2985430150
+      internalID: 1302745906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e579680c391d2409fe51f9885f3d81
+      internalID: -1583598594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672800d59437084791eed3f793a5733
+      internalID: -2118293017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 125.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a0ceb88982fd04c838d84f121a5dda
+      internalID: -1780086401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_23
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 147
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca301f377c6794c923696ce69ee2ad
+      internalID: 540021297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb55208101ebb22489db4d3e007e880c
+      internalID: 1842253540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f6a04b5099d5145ac65f95189658f7
+      internalID: 1191548538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ef59606e28ae3439dae37d89f0103f
+      internalID: 2111461559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f554c47d7b53ac4fa6f9c02d697fc14
+      internalID: 63495439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea7925f8578c8d4f90cbb62422b381b
+      internalID: 588457476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10019cf2438571e41b7a58c470e80b77
+      internalID: -570709949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 95.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7954fc36d1084583c7b6ee89fbe45
+      internalID: -891149026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 127
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99444248996b7a1459944c938aec0844
+      internalID: 2034261325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29fa443ad02dd34eb8442dfba37e70d
+      internalID: 2020182696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed94f4908307240ad0e7fc3742a868
+      internalID: -1161381062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1e64406acb5eb459c9e6128927496f
+      internalID: -415668078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfa1cf09e40295429956acde76eef7b
+      internalID: -905818755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0e801558cf57745bba8e2ecb4114f1
+      internalID: -1400144153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935182cac6f7464080045582038a1ea
+      internalID: 1658440282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65.14285
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d87b933449ea479a5d11790dc2af1
+      internalID: -1694580290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 107
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06983c6ee64495e4a9712202f1690a3a
+      internalID: -597712221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbce68914ebe0f149af02012c0de061b
+      internalID: 2118750934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_41
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824ca5ca0d37fc9469f0f04af358fb7b
+      internalID: 807414697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08704b80a0e33946bad4cf951030bf8
+      internalID: 1178472807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dc86e2b63ee224dbe431e46a1285e4
+      internalID: -1413185605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3aca9aaafb6e0439da007ee8af133e
+      internalID: 2106721113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 35.142857
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4900e06d71e89364c802d3f92ce1433e
+      internalID: -1333258627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_46
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 86
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e1ce98afcd93f40878f057729a1930
+      internalID: -1150997002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 5.1428566
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083644d6a39173d42b402db18383c011
+      internalID: -360435208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinMouse_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 5.1428566
+        width: 28
+        height: 30.857143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011239535fe836540859b8c0f8286e3f
+      internalID: 1339381602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SkinMouse_0: 1387355670
+      SkinMouse_1: 333918352
+      SkinMouse_10: 1001049064
+      SkinMouse_11: -1039094721
+      SkinMouse_12: -837569536
+      SkinMouse_13: 783930757
+      SkinMouse_14: -106520012
+      SkinMouse_15: -1092140608
+      SkinMouse_16: -1240806034
+      SkinMouse_17: -49121798
+      SkinMouse_18: 1793907666
+      SkinMouse_19: 1302745906
+      SkinMouse_2: -558496668
+      SkinMouse_20: -1583598594
+      SkinMouse_21: -2118293017
+      SkinMouse_22: -1780086401
+      SkinMouse_23: 540021297
+      SkinMouse_24: 1842253540
+      SkinMouse_25: 1191548538
+      SkinMouse_26: 2111461559
+      SkinMouse_27: 63495439
+      SkinMouse_28: 588457476
+      SkinMouse_29: -570709949
+      SkinMouse_3: -1224326538
+      SkinMouse_30: -891149026
+      SkinMouse_31: 2034261325
+      SkinMouse_32: 2020182696
+      SkinMouse_33: -1161381062
+      SkinMouse_34: -415668078
+      SkinMouse_35: -905818755
+      SkinMouse_36: -1400144153
+      SkinMouse_37: 1658440282
+      SkinMouse_38: -1694580290
+      SkinMouse_39: -597712221
+      SkinMouse_4: 1274808470
+      SkinMouse_40: 2118750934
+      SkinMouse_41: 807414697
+      SkinMouse_42: 1178472807
+      SkinMouse_43: -1413185605
+      SkinMouse_44: 2106721113
+      SkinMouse_45: -1333258627
+      SkinMouse_46: -1150997002
+      SkinMouse_47: -360435208
+      SkinMouse_48: 1339381602
+      SkinMouse_5: 1208564728
+      SkinMouse_6: 987546422
+      SkinMouse_7: -1563971074
+      SkinMouse_8: -1631988845
+      SkinMouse_9: 517997139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
