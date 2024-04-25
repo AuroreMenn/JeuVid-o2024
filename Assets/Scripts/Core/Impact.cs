@@ -13,6 +13,15 @@ public class Impact : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col) {
 		//Si l'obstacle entre en collision avec le joueur (objet avec le tag "Player")
         if (col.gameObject.tag == "Player") {
+
+            // Récupère tous les ennemis avec le tag "Ennemis"
+            GameObject[] ennemis = GameObject.FindGameObjectsWithTag("Ennemi");
+            foreach (GameObject ennemi in ennemis)
+            {
+                // Assurez-vous que l'ennemi possède le script FollowingPlayerMove avant de le déplacer
+                ennemi.GetComponent<Reset>().resetPosition();
+                
+            }
 			
 			//S'il faut réinitialiser des obstacles lorsqu'on perd, uniquement s'il y a un tableauReinit
 			if(tableauReinit != null){
