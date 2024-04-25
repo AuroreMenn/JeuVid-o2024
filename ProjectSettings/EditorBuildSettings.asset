@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cinematique_Fin.unity
-    guid: 443e51747108a5e4d9f79704c22737e3
+    path: Assets/Scenes/TitleMenu.unity
+    guid: 9e10fd264d9f2734d95dda04c50f86e5
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 8498796fb8d414646b6d8be121bb491f
@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
     guid: c28d44e8b4bf25d47a6ac2593d382d0a
+  - enabled: 1
+    path: Assets/Scenes/Cinematique_Fin.unity
+    guid: 443e51747108a5e4d9f79704c22737e3
   - enabled: 1
     path: Assets/Scenes/Cinematique.unity
     guid: 7dc3e56161b663445a8a8879df212202
@@ -41,7 +44,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestPoule.unity
     guid: c1161d2f96ea64c4088d5dedaa71c064
-  - enabled: 1
-    path: Assets/Scenes/TitleMenu.unity
-    guid: 9e10fd264d9f2734d95dda04c50f86e5
   m_configObjects: {}
